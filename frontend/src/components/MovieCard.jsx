@@ -12,7 +12,7 @@ export default function MovieCard({movie}) {
   return (
     <div className='movieCard'>
         <div className="moviePoster">
-            <img  src={movie.url} alt={movie.title} set="" />
+            <img  src={movie.posterUrl} alt={movie.title} set="" />
             <div className="movieOverlay">
                 <button className='favBtn' onClick={onfavoriteClickaa} style={{padding:'10px', borderRadius: '10px', backgroundColor:"red", color: 'white'}}>
                     <FaHeart/>
